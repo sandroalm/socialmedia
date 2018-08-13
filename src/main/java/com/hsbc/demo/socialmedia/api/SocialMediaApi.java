@@ -4,7 +4,6 @@ import java.util.List;
 
 import javax.validation.Valid;
 import javax.ws.rs.Consumes;
-import javax.ws.rs.Produces;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -56,7 +55,7 @@ public class SocialMediaApi {
 	@RequestMapping(value = "/users/timeline", method = RequestMethod.POST)
 	@Consumes("application/json")
 	public List<Post> timeline(@RequestBody User user) {
-		// refresh
+		// refresh	
 		user = userService.findByUserName(user.getUserName());
 		return postService.findByUserInOrderByDateDesc(user);
 	}

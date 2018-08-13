@@ -40,7 +40,7 @@ public class PostRepositoryTest {
 	@Test
 	public void aUserShouldPostA140CharMsg() {
 		String text = "Hello World";
-		Post post = Post.from(new User(), text);
+		Post post = Post.from(user, text);
 
 		Post result = postRepository.save(post);
 
