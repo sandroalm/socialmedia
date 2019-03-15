@@ -1,4 +1,4 @@
-package com.hsbc.demo.socialmedia;
+package com.demo.socialmedia;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

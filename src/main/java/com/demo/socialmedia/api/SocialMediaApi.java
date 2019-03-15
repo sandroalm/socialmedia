@@ -1,4 +1,4 @@
-package com.hsbc.demo.socialmedia.api;
+package com.demo.socialmedia.api;
 
 import java.util.List;
 
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.hsbc.demo.socialmedia.model.Post;
-import com.hsbc.demo.socialmedia.model.User;
-import com.hsbc.demo.socialmedia.service.PostService;
-import com.hsbc.demo.socialmedia.service.UserService;
+import com.demo.socialmedia.model.Post;
+import com.demo.socialmedia.model.User;
+import com.demo.socialmedia.service.PostService;
+import com.demo.socialmedia.service.UserService;
 
 @RestController
 @RequestMapping("/social")

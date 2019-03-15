@@ -1,4 +1,4 @@
-package com.hsbc.demo.socialmedia;
+package com.demo.socialmedia;
 
 import static org.junit.Assert.assertTrue;
 
@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.hsbc.demo.socialmedia.model.User;
+import com.demo.socialmedia.model.User;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

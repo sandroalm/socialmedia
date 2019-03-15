@@ -1,4 +1,4 @@
-package com.hsbc.demo.socialmedia;
+package com.demo.socialmedia;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
@@ -14,10 +14,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.hsbc.demo.socialmedia.model.Post;
-import com.hsbc.demo.socialmedia.model.User;
-import com.hsbc.demo.socialmedia.repository.PostRepository;
-import com.hsbc.demo.socialmedia.repository.UserRepository;
+import com.demo.socialmedia.model.Post;
+import com.demo.socialmedia.model.User;
+import com.demo.socialmedia.repository.PostRepository;
+import com.demo.socialmedia.repository.UserRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @DataJpaTest

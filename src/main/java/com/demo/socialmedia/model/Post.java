@@ -1,4 +1,4 @@
-package com.hsbc.demo.socialmedia.model;
+package com.demo.socialmedia.model;
 
 import java.util.Date;
 

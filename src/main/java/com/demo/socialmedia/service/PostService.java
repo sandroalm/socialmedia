@@ -1,13 +1,13 @@
-package com.hsbc.demo.socialmedia.service;
+package com.demo.socialmedia.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.hsbc.demo.socialmedia.model.Post;
-import com.hsbc.demo.socialmedia.model.User;
-import com.hsbc.demo.socialmedia.repository.PostRepository;
+import com.demo.socialmedia.model.Post;
+import com.demo.socialmedia.model.User;
+import com.demo.socialmedia.repository.PostRepository;
 
 @Service
 public class PostService {

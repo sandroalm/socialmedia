@@ -1,4 +1,4 @@
-package com.hsbc.demo.socialmedia.service;
+package com.demo.socialmedia.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +12,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.hsbc.demo.socialmedia.model.Post;
-import com.hsbc.demo.socialmedia.model.User;
-import com.hsbc.demo.socialmedia.repository.PostRepository;
+import com.demo.socialmedia.model.Post;
+import com.demo.socialmedia.model.User;
+import com.demo.socialmedia.repository.PostRepository;
+import com.demo.socialmedia.service.PostService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
